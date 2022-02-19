@@ -1,0 +1,57 @@
+.sidebar {
+	width: 400px;
+	height: 100vh;
+	position: fixed;
+	background-color: #2b3031;
+}
+
+.content {
+	margin-left: 400px;
+	padding-top: 100px;
+}
+
+.logo {
+	max-height: 200px;
+	padding-bottom: 20px;
+	max-width: 100%;
+}
+
+.sidebar i.bi {
+	margin-right: 10px;
+}
+
+#scroll-to-top {
+	display: none;
+	font-size: xx-large;
+	z-index: 999;
+}
+
+div.card-img-top {
+	height: 100px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#year {
+	width: fit-content;
+}
+
+@media screen and (max-width: 1000px) {
+	.sidebar {
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+
+	.content {
+		margin-left: inherit;
+		padding-top: 30px;
+	}
+
+	#scroll-to-top {
+		display: block;
+		position: fixed;
+		right: 20px;
+		bottom: 20px;
+	}
+}
