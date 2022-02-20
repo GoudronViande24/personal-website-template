@@ -32,6 +32,12 @@ div.card-img-top {
 	background-repeat: no-repeat;
 }
 
+#skills .progress {
+	height: 3px;
+	max-width: 200px;
+	margin: auto;
+}
+
 #year {
 	width: fit-content;
 }
@@ -45,7 +51,7 @@ div.card-img-top {
 
 	.content {
 		margin-left: inherit;
-		padding-top: 30px;
+		padding-top: 0;
 	}
 
 	#scroll-to-top {
