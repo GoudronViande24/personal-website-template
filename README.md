@@ -1,4 +1,4 @@
-# personal-website-template
+# Personal Website Template
 A template for a simple personal website, featuring GitHub repos, skills, certificates and more.
 
 [![CodeFactor](https://www.codefactor.io/repository/github/goudronviande24/personal-website-template/badge)](https://www.codefactor.io/repository/github/goudronviande24/personal-website-template)
